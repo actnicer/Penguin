@@ -163,7 +163,6 @@ body {
 
 .beak.top {
     width: 20%;
-    position: 20%;
     top: 60%;
     left: 40%;
 }
@@ -187,7 +186,7 @@ body {
 
 .shirt div {
     /* override font-weight of div */
-    font-weight: normal;
+    font-weight: initial;
     top: 22.5px;
     left: 12px;
 }
@@ -202,7 +201,7 @@ body {
      white 67%
     );
     border-radius:80% 80% 100% 100%;
-    top: 10%;
+    top: 40%;
     left: 25%;
 }
 
@@ -238,7 +237,7 @@ body {
     transform-origin: 0% 0%;
     /* keeps gradient on correct side of arm */
     transform: rotate(130deg) scaleX(-1);
-    animation: wave 3s linear infinite;
+    animation: 3s linear infinite wave;
 }
   
 .arm.right {
